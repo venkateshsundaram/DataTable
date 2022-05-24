@@ -1,6 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fulfil Assignment
+
+## Features covered
+
+- Should have provision to right align numeric fields in column
+- Column width auto adjust
+- Row Click event
+- Multi/Individual selection
+- Infinite scrolling
+- Filtering the product with debounce support
+- Basic Test cases
 
 ## Available Scripts
 

@@ -1,0 +1,43 @@
+.ReactVirtualized__Table {
+    overflow-x: auto;
+    margin: 10px 10px 20px 0px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  
+  .ReactVirtualized__Table__headerRow {
+    padding: 20px 0;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .ReactVirtualized__Table__row {
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .ReactVirtualized__Table__headerColumn {
+    text-transform: capitalize;
+    display: flex;
+  }
+  
+  .ReactVirtualized__Table__headerColumn .drag-handle-icon {
+    float: right;
+    margin-left: auto;
+    cursor: ew-resize;
+  }
+  
+
+.DragHandleIcon{
+    display: flex;
+    width: 10px;
+    height:20px;
+    position: absolute;
+    right: 0px;
+    cursor: col-resize;
+}
+
+.DragHandleActive{
+    cursor: col-resize;
+}

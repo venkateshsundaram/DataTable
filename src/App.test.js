@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Dashboard from './containers/Dashboard';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test('renders All tab', () => {
+  render(<Dashboard />);
+  const linkElement = screen.getByText(/All/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders Filter section', () => {
+  render(<Dashboard />);
+  const linkElement = screen.getByText(/Filter/i);
   expect(linkElement).toBeInTheDocument();
 });
